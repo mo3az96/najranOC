@@ -491,6 +491,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-transform: capitalize;
 }
 
 html[dir='ltr'] .nav-li {
@@ -1291,6 +1292,7 @@ html[dir='rtl'] .sub2-li {
   border-radius: 32px;
   border: 1px solid;
   margin: 0 2.5px;
+  text-transform: capitalize;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1538,6 +1540,7 @@ header {
 
 .topBar-cont {
   background-color: #8e2528;
+  text-transform: capitalize;
 }
 
 @media (max-width: 991px) {
@@ -1723,6 +1726,7 @@ html[dir='rtl'] .top-setting.lang {
   font-size: 18px;
   color: #8e2528;
   cursor: pointer;
+  text-transform: capitalize;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1918,6 +1922,7 @@ html[dir='rtl'] .mo-log-icon .setting-drop {
   font-size: 26px;
   font-weight: 500;
   color: #1a1a1a;
+  text-transform: uppercase;
 }
 
 .products-slider-sec {
@@ -2029,6 +2034,7 @@ html[dir='rtl'] .feat .feat-img {
 .feat .feat-title {
   font-size: 18px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .feat .feat-desc {
@@ -2052,12 +2058,14 @@ footer {
   font-weight: bold;
   color: #1a1a1a;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .news-subhead {
   font-size: 16px;
   color: #1a1a1a;
   margin-bottom: 13px;
+  text-transform: capitalize;
 }
 
 .nav-foot-li {
@@ -2069,6 +2077,7 @@ footer {
 }
 
 .nav-foot-link {
+  text-transform: capitalize;
   font-size: 16px;
   color: #1a1a1a;
   display: inline-block;
@@ -2169,6 +2178,7 @@ html[dir='ltr'] .nav-foot-link:hover, html[dir='ltr'] .nav-foot-link:focus {
   margin-top: 25px;
   background-repeat: no-repeat;
   position: relative;
+  text-transform: capitalize;
 }
 
 @media (min-width: 1500px) {
@@ -2523,9 +2533,6 @@ html[dir='rtl'] nav .menu-close {
     width: 100%;
     display: block;
     margin: 0 0 6px;
-  }
-  nav .sub2-li:last-of-type {
-    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
