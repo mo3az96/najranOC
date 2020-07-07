@@ -8,7 +8,9 @@ $(document).ready(function () {
     new WOW().init();
 
     $(window).scroll(function () {
-        $(this).scrollTop() >= 500 ? $(".arr-top").fadeIn(500) : $(".arr-top").fadeOut(500);
+        if ($(window).width() > 991) {
+            $(this).scrollTop() >= 500 ? $(".arr-top").fadeIn(500) : $(".arr-top").fadeOut(500);
+        }
     });
 
 
