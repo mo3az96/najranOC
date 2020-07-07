@@ -7,6 +7,17 @@ $(window).on('load', function () {
 $(document).ready(function () {
     new WOW().init();
 
+    $(window).scroll(function () {
+        $(this).scrollTop() >= 500 ? $(".arr-top").fadeIn(500) : $(".arr-top").fadeOut(500);
+    });
+
+
+    $(".arr-top").click(function () {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 1500);
+    });
+
     ///////// **main Slider** /////////
     var mainswiper = new Swiper('.main-slider .swiper-container', {
         spaceBetween: 10,
