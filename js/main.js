@@ -5,6 +5,8 @@ $(window).on('load', function () {
     });
 });
 $(document).ready(function () {
+    new WOW().init();
+
     ///////// **main Slider** /////////
     var mainswiper = new Swiper('.main-slider .swiper-container', {
         spaceBetween: 10,
